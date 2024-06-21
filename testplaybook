@@ -1,0 +1,7 @@
+---
+name: Ansible Playbook to print "Hello, World!" to the console
+hosts: localhost
+tasks:
+  - name: Print "Hello, World!" to the console
+    debug:
+      msg: "Hello, World!"
