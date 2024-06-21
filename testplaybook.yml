@@ -1,6 +1,6 @@
 ---
-  hosts: localhost
-  tasks:
-    - name: Print "Hello, World!" to the console
-      debug:
-        msg: "Hello, World!"
+hosts: localhost
+tasks:
+  - name: Print "Hello, World!" to the console
+    debug:
+      msg: "Hello, World!"
